@@ -11,6 +11,11 @@ php convert.php myVideo.mp4 400x300
 ```
 The result will be a small preview video: `myVideo-preview.mp4`
 
+Use quotes or escape spaces if your filename contains spaces:
+```
+php convert.php "my video.mp4" 400x300
+php convert.php my\ video.mp4 400x300
+```
 ## Some configuration
 Some tuning can be done with the settings at the top of the script:
 
