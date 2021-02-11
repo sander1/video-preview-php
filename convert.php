@@ -21,7 +21,7 @@ define("FFMPEG_CROPDETECT", FFMPEG_PATH . " -ss %F -i %s -t %F -vf \"cropdetect=
 
 // -ss %F : start seconds (float)
 // -i %s : file (string)
-// -t %F : suration in seconds (float)
+// -t %F : duration in seconds (float)
 // -an %s_%04d.mp4 : output file name with output part number (integer, zerofilled, e.g. 0001)
 define("FFMPEG_PART", FFMPEG_PATH . " -hide_banner -loglevel warning -y -ss %F -i %s -t %F -vf \"%s, scale=(iw*sar)*max(%d.1/(iw*sar)\,%d.1/ih):ih*max(%d.1/(iw*sar)\,%d.1/ih), crop=%d:%d, fps=fps=" . FPS . "\" -an %s_%04d.mp4");
 
