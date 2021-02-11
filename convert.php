@@ -7,6 +7,8 @@ define("NUMBER_OF_PARTS", 8);
 define("PART_DURATION", 1.25);
 define("FPS", 25);
 
+////////// No need to change things below this line //////////
+
 define("REGEX_VIDEO_SIZE", "`\d+x\d+`");
 
 // input file %s : (string)
