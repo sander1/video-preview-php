@@ -30,3 +30,6 @@ The reason why those values are not part of the command line input is because th
 
 ## An example
 Here is an [example video preview](https://k00.fr/videopreview) of the [ElephantsDream movie](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4).
+
+# Todo
+* Add check for minimum video length
