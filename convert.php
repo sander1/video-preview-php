@@ -16,7 +16,7 @@ define("FFPROBE_IFRAMES", FFPROBE_PATH . " -v error -skip_frame nokey -show_entr
 
 // -ss %F : start seconds (float)
 // -i %s : file (string)
-// -t %F : suration in seconds (float)
+// -t %F : duration in seconds (float)
 define("FFMPEG_CROPDETECT", FFMPEG_PATH . " -ss %F -i %s -t %F -vf \"cropdetect=24:16:0\" -f null - 2>&1 | awk '/crop/ { print \$NF }' | tail -1");
 
 // -ss %F : start seconds (float)
