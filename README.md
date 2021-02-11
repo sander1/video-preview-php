@@ -33,3 +33,4 @@ Here is an [example video preview](https://k00.fr/videopreview) of the [Elephant
 
 # Todo
 * Add check for minimum video length
+* Add option to set output folder
