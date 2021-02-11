@@ -1,5 +1,5 @@
 # What is this?
-This is a script written in PHP to create small video previews like you can see on YouTube. It makes use of [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) to do so.
+This is a script written in PHP to create small video previews like the ones you see on YouTube. It makes use of [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html).
 
 ## Why PHP, why not bash or something else?
 Because I'm a web guy and comfortable with PHP.
