@@ -28,9 +28,9 @@ Some tuning can be done with the settings at the top of the script:
 
 The reason why those values are not part of the command line input is because this script will most likely run as an automated task or cronjob and all the video previews need to be the same.
 
-## An example
+# An example
 Here is an [example video preview](https://raw.githubusercontent.com/sander1/video-preview-php/preview/ElephantsDream-preview.mp4) of the [ElephantsDream movie](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4).
 
 # Todo
-* Add check for minimum video length
-* Add option to set output folder
+- [ ] Add check for minimum video length
+- [ ] Add option to set output folder
